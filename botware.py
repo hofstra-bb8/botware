@@ -3,7 +3,7 @@ from pygame import mixer # Load the required library
 from dual_mc33926_rpi import motors, MAX_SPEED
 
 mixer.init()
-mixer.music.load('./bb8.m4r')
+mixer.music.load('./bb8.mp3')
 mixer.music.play()
 
 try:
