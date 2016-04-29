@@ -20,7 +20,7 @@ def reverse(seconds):
 
 try:
   motors.enable()
-
+  make_noise()
   forward(10)
   make_noise()
   reverse(2)
